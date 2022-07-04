@@ -18,12 +18,12 @@ const Post = () => {
   }, []);
 
   return (
-    <>
+    <div className="postList">
       <h2>id : {post.id}</h2>
       <h3>userId : {post.userId}</h3>
       <h2>title : {post.title}</h2>
       <p>body : {post.body}</p>
-    </>
+    </div>
   );
 };
 
