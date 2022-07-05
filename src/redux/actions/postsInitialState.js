@@ -1,5 +1,5 @@
 export default {
-	isLoading: false,
-	posts: null,
-	errorMessage: null,
+  isLoading: false,
+  posts: null,
+  errorMessage: null,
 };

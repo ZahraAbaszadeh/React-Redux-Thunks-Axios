@@ -1,11 +1,10 @@
 import PostService from "../../services/postService";
-import actions from "../actions/postsActions";
+import postActions from "../actions/postsActions";
 
 export const loadPostsAsync = () => (dispatch) => {
-  dispatch(actions.postsLoadStart());
+  dispatch(postActions.postsLoadStart());
 
   PostService.getAllPosts()
-    .then((response) => dispatch(actions.postsLoadSuccess(response.data)))
-    .catch((error) => dispatch(actions.postsLoadError(error.message)));
+    .then((response) => dispatch(postActions.postsLoadSuccess(response.data)))
+    .catch((error) => dispatch(postActions.postsLoadError(error.message)));
 };
-

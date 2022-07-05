@@ -1,7 +1,7 @@
 import postTypes from "../types/postsType";
-import initialState from "../actions/postsInitialState";
+import postInitialState from "../actions/postsInitialState";
 
-const postsReducer = (state = initialState, { type, payload }) => {
+const postsReducer = (state = postInitialState, { type, payload }) => {
   switch (type) {
     case postTypes.POSTS_LOAD_START:
       return {

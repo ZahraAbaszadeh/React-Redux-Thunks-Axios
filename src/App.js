@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import  AllPosts  from "./pages/AllPosts";
-import  Post  from "./pages/Post";
+import AllPosts from "./pages/AllPosts";
+import Post from "./pages/Post";
 
 const App = () => {
   return (

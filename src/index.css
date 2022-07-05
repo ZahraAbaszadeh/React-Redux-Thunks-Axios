@@ -1,24 +1,5 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.all{
-  width: 90vw;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.postList {
-  flex-basis: 20%;
-  padding: 20px;
-  margin: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f1f8e9 !important;
 }
